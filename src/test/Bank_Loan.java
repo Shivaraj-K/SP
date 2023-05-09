@@ -26,6 +26,8 @@ public class Bank_Loan {
 	public void map_Loan()
 	{
 		System.out.println("Map_Loan");
+		System.out.println("Java");
+		System.out.println("Python");
 	}
 	@Test(dependsOnMethods= {"crop_Take"})
 
