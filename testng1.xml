@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Dept">
+  <test  name="Loan">
+  <groups>
+  <run>
+  <exclude name="Smoke"></exclude>
+  </run>
+  </groups>
+    <classes>
+      <class name="test.Bank_Loan"/>
+      <class name="test.Shiv"/>
+      <class name="test.Subjects"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

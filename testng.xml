@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Dept">
+  <test  name="Loan">
+    <classes>
+      <class name="test.Shiv">
+      <methods>
+       <include name="lapyLoan()"/>
+      </methods>
+     
+      </class>
+      <class name="test.Bank_Loan">
+      <methods>
+      <exclude name="crop.*"></exclude>
+      </methods>
+      </class>
+    </classes>
+  </test>
+  <test  name="Subj">
+    <classes>
+      <class name="test.Subjects"/>
+      <!-- <class name="test.Bank_Loan"/>-->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
